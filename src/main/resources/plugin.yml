@@ -1,0 +1,9 @@
+name: Suicide
+version: '${project.version}'
+main: com.alphavalid.suicide.Suicide
+api-version: 1.12
+authors: [ AlphaValid ]
+description: Suicide quickly.
+commands:
+  suicide:
+    description: suicide quickly.
