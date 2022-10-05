@@ -16,7 +16,7 @@ public class Command implements CommandExecutor {
                 return true;
             }
             sender.sendMessage("Only the players can use this command.");
-            return false;
+            return true;
         }
         return false;
     }
